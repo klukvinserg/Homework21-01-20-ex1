@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(48, 109, 138);
+    max-width: 1100px;
+    min-width: 400px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+}
+
+.column-one, .column-three {
+    width: 33.3%;
+}
+
+.column-two {
+    width: 33.4%;
+}
+
+.column-inner {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+h3, p {
+    margin: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
